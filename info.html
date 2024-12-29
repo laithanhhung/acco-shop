@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo_title.png" type="image/x-icon" />
+    <title>Acco Shop</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .header img {
+        width: 200px;
+        height: auto;
+        margin: 0 20px;
+      }
+      .info h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .info p {
+        margin: 5px 0;
+        color: #666;
+      }
+      .details {
+        margin-left: 20px;
+      }
+      .details p {
+        margin: 5px 0;
+      }
+      .qr-code {
+        border-radius: 8px;
+        width: 300px;
+        height: auto;
+      }
+
+      /* Responsive styles */
+      @media (max-width: 450px) {
+        .container {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .header img {
+          margin: 0 0 10px 0;
+        }
+        .qr-code {
+          margin: 0 auto;
+          margin-top: 20px;
+        }
+        .info {
+          margin-left: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info-container">
+        <div class="header">
+          <img src="img/logo.png" alt="Divine Logo" />
+          <div class="info">
+            <h1>Acco Shop</h1>
+            <p>Key, Account</p>
+          </div>
+        </div>
+        <div class="details">
+          <p>📞 0705909368</p>
+          <p>🌐 <a href="https://acco.vn">https://acco.vn</a></p>
+        </div>
+      </div>
+      <img src="img/qrcode.jpg" alt="QR Code" class="qr-code" />
+    </div>
+  </body>
+</html>

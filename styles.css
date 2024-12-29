@@ -1,0 +1,527 @@
+/* Variables */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #666;
+  --error-color: #ff4444;
+  --white: #fff;
+  --gray-100: #f8f9fa;
+  --gray-200: #f4f4f4;
+  --gray-300: #ddd;
+  --gray-400: #999;
+  --gray-500: #666;
+  --gray-600: #444;
+  --gray-700: #333;
+
+  --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  --border-radius-sm: 4px;
+  --border-radius: 8px;
+  --border-radius-full: 50%;
+
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --spacing-2xl: 40px;
+
+  --container-width: 1200px;
+  --sidebar-width: 200px;
+
+  --font-sm: 13px;
+  --font-base: 14px;
+  --font-md: 16px;
+  --font-lg: 18px;
+}
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: var(--gray-200);
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+/* Header Wrapper - thêm mới */
+.header-wrapper {
+  width: 100%;
+  background: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+/* Header Content */
+.header-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  flex: 0 0 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+  filter: brightness(1.2) contrast(1.1);
+}
+
+.logo:hover img {
+  animation: bounce 0.8s cubic-bezier(0.36, 0, 0.66, -0.56) infinite;
+}
+
+/* Light Mode Shadow */
+.logo::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 12px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* Hover Animations */
+.logo:hover::after {
+  opacity: 1;
+  animation: darkShadowMove 0.8s cubic-bezier(0.36, 0, 0.66, -0.56) infinite;
+}
+
+/* Logo Animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Dark Mode Shadow Animation */
+@keyframes darkShadowMove {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.8;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(77, 159, 255, 0.4) 0%,
+      rgba(77, 159, 255, 0.2) 30%,
+      transparent 70%
+    );
+    width: 80px;
+    filter: blur(3px);
+  }
+  50% {
+    transform: translateX(-50%) scale(0.85);
+    opacity: 0.6;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(77, 159, 255, 0.3) 0%,
+      rgba(77, 159, 255, 0.15) 30%,
+      transparent 70%
+    );
+    width: 70px;
+    filter: blur(2px);
+  }
+}
+
+@keyframes lightGlow {
+  from {
+    filter: drop-shadow(0 0 10px rgba(253, 217, 33, 0.4));
+  }
+  to {
+    filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.8));
+  }
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #f1c40f, #f39c12);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+/* Dark Mode Background */
+input:checked + .slider {
+  background: linear-gradient(45deg, #2c3e50, #3498db);
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  left: 4px;
+  bottom: 4px;
+  background: #fff;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Bestsellers Section */
+.splide__slide {
+  padding: 10px;
+}
+
+.bs_product-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.bs_product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.bs_product-image {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bs_product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bs_product-info {
+  padding: var(--spacing-sm);
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bs_product-info h3 {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: var(--font-md);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bs_product-description {
+  font-size: var(--font-sm);
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-xs);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bs_product-price {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.bs_price {
+  font-size: var(--font-lg);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.bs_original-price {
+  text-decoration: line-through;
+  color: var(--gray-400);
+  font-size: var(--font-sm);
+}
+
+.bs_discount-tag {
+  background: var(--error-color);
+  color: var(--white);
+  padding: 2px 6px;
+  border-radius: var(--border-radius-sm);
+  font-size: 11px;
+}
+/* End of Bestsellers Section */
+
+/* Start of Product Section */
+
+.main-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.category-container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+h2 {
+  text-align: center;
+}
+
+.category-container h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #0077b5;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Chia thành 4 cột */
+  gap: 20px; /* Khoảng cách giữa các product card */
+}
+
+.product-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: auto; /* Để chiều cao tự động theo nội dung */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.product-image {
+  width: 100%;
+  padding-top: 56.25%; /* Tỷ lệ 16:9 */
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.product-info h3 {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: var(--font-md);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-description {
+  font-size: var(--font-sm);
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-xs);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  display: block;
+  max-height: 4.5em;
+  line-height: 1.5em;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.price {
+  font-size: var(--font-lg);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: var(--gray-400);
+  font-size: var(--font-sm);
+}
+
+.discount-tag {
+  background: var(--error-color);
+  color: var(--white);
+  padding: 2px 6px;
+  border-radius: var(--border-radius-sm);
+  font-size: 11px;
+}
+.view-more-button {
+  display: block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-divider {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid var(--gray-300);
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color); /* LinkedIn màu xanh */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./img/zalo.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0; /* Độ mờ của hình ảnh */
+  z-index: 0;
+  transition: opacity 0.3s;
+}
+
+.contact-button:hover::before {
+  opacity: 1; /* Tăng độ mờ của hình ảnh khi hover */
+}
+
+.contact-button span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive styles for screens smaller than 450px */
+@media (max-width: 450px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột */
+    gap: 20px; /* Khoảng cách giữa các product card */
+  }
+  .product-price {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-xs);
+  }
+  .original-price {
+    display: none;
+  }
+  .logo {
+    flex: 0 0 80px;
+  }
+  .header-content {
+    padding: 5px 20px;
+    margin: 0;
+  }
+  .contact-button {
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 12px;
+    align-self: center; /* Căn giữa theo chiều ngang */
+  }
+  .contact {
+    margin-top: 8px;
+  }
+}
+.product-info h3 {
+  font-size: 16px; /* Đảm bảo kích thước font phù hợp */
+  white-space: normal; /* Cho phép xuống dòng nếu cần */
+  overflow: visible; /* Đảm bảo không cắt bớt nội dung */
+  text-overflow: clip; /* Không cắt bớt nội dung */
+}
