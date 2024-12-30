@@ -525,3 +525,23 @@ h2 {
   overflow: visible; /* Đảm bảo không cắt bớt nội dung */
   text-overflow: clip; /* Không cắt bớt nội dung */
 }
+.notification {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1200px;
+  background-color: var(--primary-color);
+  color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  z-index: 1000; /* Ensures it stays on top of other elements */
+  border-radius: 10px;
+  margin: 0 auto; /* Centers the element horizontally */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  transform: translateY(100%); /* Start hidden */
+  text-decoration: none;
+}

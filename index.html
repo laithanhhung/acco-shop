@@ -44,9 +44,30 @@
 
       <!-- Products Section -->
       <div class="main-container"></div>
+      <a href="info.html" target="_blank" class="notification"
+        >Liên hệ Zalo để thanh toán</a
+      >
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="script.js"></script>
+    <script>
+      let lastScrollTop = 0;
+      const notification = document.querySelector(".notification");
+
+      window.addEventListener("scroll", function () {
+        const scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+          // Scrolling down
+          notification.style.transform = "translateY(100%)";
+        } else {
+          // Scrolling up
+          notification.style.transform = "translateY(0)";
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+      });
+    </script>
   </body>
 </html>
