@@ -61,8 +61,9 @@ const products = [
     category: "Giải trí",
     price: 90000,
     originalPrice: 90000,
-    service: "Nâng cấp trên tk chính chủ",
-    description: "Có xác thực sinh viên",
+    service: "Hỗ trợ xác thực sinh viên",
+    description:
+      "Các bác tự gia hạn 35k/tháng thay vì 65k/tháng, nhạc chất lượng Lossless",
     image: "./img/apple_music_apple_tv_1nam.png",
   },
   {
