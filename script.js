@@ -28,7 +28,8 @@ const products = [
     price: 69000,
     originalPrice: 69000,
     service: "Nâng cấp trên tk chính chủ",
-    description: "",
+    description:
+      "Có xác thực sinh viên và tự mua gói Premium quốc gia VN 69k/tháng thay vì 79k/tháng",
     image: "./img/youtube_premium_1nam.png",
   },
   {
