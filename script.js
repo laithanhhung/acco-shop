@@ -56,7 +56,7 @@ const products = [
   },
   {
     id: 6,
-    name: "Xác thực sinh viên Apple Music + Apple TV+ - 1 năm",
+    name: "Xác thực sinh viên Apple Music + Apple TV - 1 năm",
     category: "Giải trí",
     price: 90000,
     originalPrice: 90000,
