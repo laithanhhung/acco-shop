@@ -60,7 +60,7 @@ const products = [
     price: 90000,
     originalPrice: 90000,
     service: "Nâng cấp trên tk chính chủ",
-    description: "",
+    description: "Có xác thực sinh viên",
     image: "./img/apple_music_apple_tv_1nam.png",
   },
   {
