@@ -342,7 +342,7 @@ const products = [
     category: "Thiết kế / Đồ họa",
     price: 99000,
     originalPrice: 99000,
-    service: "Nâng cấp trên tk chính chủ",
+    service: "Tài khoản riêng tư",
     description: "1TB Cloud, 1000 credit A.I /tháng, có thể gia hạn hàng tháng",
     image: "./img/adobe_all_apps_1thang.png",
   },
