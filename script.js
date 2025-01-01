@@ -7,8 +7,7 @@ const products = [
     price: 99000,
     originalPrice: 99000,
     service: "Nâng cấp trên tk chính chủ",
-    description:
-      "Tự mua gói Premium quốc gia VN 29.5k/tháng thay vì 59k/tháng - save 50%",
+    description: "",
     image: "./img/spotify_premium_1nam.png",
   },
   {
@@ -29,8 +28,7 @@ const products = [
     price: 69000,
     originalPrice: 69000,
     service: "Nâng cấp trên tk chính chủ",
-    description:
-      "Tự mua gói Premium quốc gia VN 49.5k/tháng thay vì 79k/tháng - save 38%",
+    description: "",
     image: "./img/youtube_premium_1nam.png",
   },
   {
@@ -62,8 +60,7 @@ const products = [
     price: 90000,
     originalPrice: 90000,
     service: "Nâng cấp trên tk chính chủ",
-    description:
-      "Các bác tự gia hạn 35k/tháng thay vì 65k/tháng, nhạc chất lượng Lossless",
+    description: "",
     image: "./img/apple_music_apple_tv_1nam.png",
   },
   {
