@@ -277,7 +277,7 @@ const products = [
   },
   {
     id: 27,
-    name: "Google One, Google Drive, Gmail, Google Photo - 18 tháng",
+    name: "Google One, Google Drive, Gmail, Google Photo - 1 năm",
     category: "Lưu trữ",
     price: 300000,
     originalPrice: 300000,
