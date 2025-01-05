@@ -542,6 +542,14 @@ h2 {
   border-radius: 10px;
   margin: 0 auto; /* Centers the element horizontally */
   transition: transform 0.3s ease-in-out; /* Smooth transition */
+  transition: transform 0.3s, padding 0.3s, font-size 0.3s;
   transform: translateY(100%); /* Start hidden */
   text-decoration: none;
+}
+.notification:hover {
+  background-color: #0056b3; /* Tông màu đậm hơn */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+  padding: 18px 0; /* Tăng kích thước padding */
+  font-size: 18px; /* Tăng font-size */
+  transform: scale(1.02); /* Phóng to nhẹ */
 }
