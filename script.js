@@ -59,7 +59,7 @@ const products = [
     name: "Netflix Premium Extra - 1 tháng",
     category: "Giải trí",
     price: 69000,
-    originalPrice: 69000,
+    originalPrice: 99000,
     service: "Sắp ra mắt",
     description: "Ultra HD 4K",
     image: "./img/netflix_1thang.png",
@@ -1352,10 +1352,10 @@ const products = [
 ];
 
 const bestsellerProducts = [
-  products[39],
   products[2],
-  products[4],
+  products[39],
   products[33],
+  products[4],
   products[35],
   products[50],
   products[65],
