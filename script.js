@@ -62,7 +62,7 @@ const products = [
     originalPrice: 69000,
     service: "Sắp ra mắt",
     description: "Ultra HD 4K",
-    image: "./img/apple_music_apple_tv_1nam.png",
+    image: "./img/netflix_1thang.png",
   },
   {
     id: 7,
