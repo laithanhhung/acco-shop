@@ -48,23 +48,22 @@ const products = [
     name: "Youtube Premium Family - 1 năm",
     category: "Giải trí",
     price: 299000,
-    originalPrice: 299000,
+    originalPrice: 350000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Không quảng cáo, tắt màn hình,... free Youtube Music, không giới hạn thiết bị",
     image: "./img/youtube_premium_family_1nam.png",
   },
-  // {
-  //   id: 6,
-  //   name: "Xác thực sinh viên Apple Music + Apple TV - 1 năm",
-  //   category: "Giải trí",
-  //   price: 90000,
-  //   originalPrice: 90000,
-  //   service: "Hỗ trợ xác thực tk cá nhân thành tk sinh viên",
-  //   description:
-  //     "Các bác tự gia hạn 35k/tháng thay vì 65k/tháng, nhạc chất lượng Lossless",
-  //   image: "./img/apple_music_apple_tv_1nam.png",
-  // },
+  {
+    id: 6,
+    name: "Netflix Premium Extra - 1 tháng",
+    category: "Giải trí",
+    price: 69000,
+    originalPrice: 69000,
+    service: "Sắp ra mắt",
+    description: "Ultra HD 4K",
+    image: "./img/apple_music_apple_tv_1nam.png",
+  },
   {
     id: 7,
     name: "Discord Nitro Basic - 1 năm",
@@ -112,8 +111,8 @@ const products = [
     id: 11,
     name: "VIEON VIP - 1 năm",
     category: "Truyền hình",
-    price: 290000,
-    originalPrice: 290000,
+    price: 299000,
+    originalPrice: 299000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Hơn 150 kênh, full HD + 4K, VTV Cab, K+ CINE, K+ ACTION, K+ KIDS,...",
@@ -245,17 +244,6 @@ const products = [
     image: "./img/office_365_family_1nam.png",
   },
   {
-    id: 24,
-    name: "Free Google Meet",
-    category: "Lưu trữ",
-    price: 0,
-    originalPrice: 0,
-    service: "",
-    description:
-      "Cuộc họp 100 người/24h, khử tạp âm, ghi lại cuộc gọi khi đăng kí gói dung lượng Google > 512GB, bảo hành 1 năm",
-    image: "./img/free_google_meet.png",
-  },
-  {
     id: 25,
     name: "Google One, Google Drive, Gmail, Google Photo - 6 tháng",
     category: "Lưu trữ",
@@ -341,7 +329,7 @@ const products = [
     name: "Adobe All Apps - 1 tháng",
     category: "Thiết kế / Đồ họa",
     price: 99000,
-    originalPrice: 99000,
+    originalPrice: 120000,
     service: "Tài khoản riêng tư",
     description: "1TB Cloud, 1000 credit A.I /tháng, có thể gia hạn hàng tháng",
     image: "./img/adobe_all_apps_1thang.png",
@@ -361,7 +349,7 @@ const products = [
     name: "Canva Pro - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 199000,
-    originalPrice: 199000,
+    originalPrice: 250000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Role Brand Designer, full tính năng bao gồm upload font chữ custom, logo,...",
@@ -404,7 +392,7 @@ const products = [
     name: "ChatGPT PLUS - 1 tháng",
     category: "AI",
     price: 399000,
-    originalPrice: 399000,
+    originalPrice: 450000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "OpenAI o1-preview + o1-mini, GPT-4 + 4o + 4o mini, upload file, tạo ảnh DALL E, voice",
@@ -518,7 +506,7 @@ const products = [
     name: "Jetbrains Full 17 Apps - 1 năm",
     category: "IT",
     price: 99000,
-    originalPrice: 99000,
+    originalPrice: 130000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Chỉ dùng ở VN, đổi thiết bị thoải mái, free Plugin paid*: Laravel Idea, jetClient...",
@@ -571,8 +559,8 @@ const products = [
     id: 55,
     name: "LinkedIn Premium Business - 1 năm",
     category: "IT",
-    price: 299000,
-    originalPrice: 299000,
+    price: 1500000,
+    originalPrice: 1500000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Nâng cấp gói trên tài khoản cá nhân, extra 2 months for friend",
@@ -603,8 +591,8 @@ const products = [
     id: 58,
     name: "SmartGit - 1 năm",
     category: "IT",
-    price: 999000,
-    originalPrice: 999000,
+    price: 99000,
+    originalPrice: 99000,
     service: "Key",
     description: "",
     image: "./img/smartgit_1nam.png",
@@ -678,7 +666,7 @@ const products = [
     name: "Elsa PREMIUM - 1 năm",
     category: "Học tập / Giáo dục",
     price: 599000,
-    originalPrice: 599000,
+    originalPrice: 700000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Elsa Pro + Elsa AI + Elsa Speech Analyzer, thêm 6 gói học toàn diện, bảo hành full",
@@ -886,8 +874,8 @@ const products = [
     id: 86,
     name: "Quizizz Individual (Super) - 1 năm",
     category: "Học tập / Giáo dục",
-    price: 899000,
-    originalPrice: 899000,
+    price: 350000,
+    originalPrice: 350000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Max 10 thiết bị cùng lúc (PC, Mobile, Web,...), link được vào tài khoản cá nhân",
@@ -917,8 +905,8 @@ const products = [
     id: 89,
     name: "Wordwall Standard - 1 năm",
     category: "Học tập / Giáo dục",
-    price: 390000,
-    originalPrice: 390000,
+    price: 499000,
+    originalPrice: 499000,
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Giúp giáo viên thiết kế các dạng bài tập, trò chơi thú vị phục vụ quá trình giảng dạy Gói tháng Standard: 55k, Pro 79k",
@@ -1010,7 +998,7 @@ const products = [
     name: "CapCUT PRO - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 899000,
-    originalPrice: 899000,
+    originalPrice: 1000000,
     service: "Nâng cấp trên tk chính chủ",
     description: "",
     image: "./img/capcut_pro_1nam.png",
@@ -1126,8 +1114,8 @@ const products = [
     id: 110,
     name: "Zoom Pro - 1 tháng",
     category: "Công việc",
-    price: 50000,
-    originalPrice: 50000,
+    price: 150000,
+    originalPrice: 150000,
     service: "Tài khoản riêng tư",
     description: "100 người/room/ 30 tiếng, 5GB Cloud",
     image: "./img/zoom_pro_tk_rieng_tu_1thang.png",
@@ -1155,7 +1143,7 @@ const products = [
   },
   {
     id: 113,
-    name: "Microsoft Copilot PRO - 6 tháng",
+    name: "Microsoft Copilot PRO - 1 tháng",
     category: "Công việc",
     price: 89000,
     originalPrice: 89000,
@@ -1167,7 +1155,7 @@ const products = [
   },
   {
     id: 114,
-    name: "Microsoft Copilot PRO - 1 năm",
+    name: "Microsoft Copilot PRO - 1 tháng",
     category: "Công việc",
     price: 499000,
     originalPrice: 499000,
@@ -1364,18 +1352,18 @@ const products = [
 ];
 
 const bestsellerProducts = [
-  products[0], // Windows 11 Pro
-  products[2], // Office 2021 Pro
-  products[4], // Photoshop 2024
-  products[7], // Norton 360
-  products[11], // Visual Studio 2022
-  products[13], // Netflix Premium
-  products[16], // NordVPN
-  products[19], // Adobe Creative Cloud
-  products[1], // Windows 11 Home
-  products[5], // Illustrator 2024
-  products[8], // Kaspersky
-  products[14], // Spotify Premium
+  products[39],
+  products[2],
+  products[4],
+  products[33],
+  products[35],
+  products[50],
+  products[65],
+  products[59],
+  products[64],
+  products[97],
+  products[5],
+  products[122],
 ];
 //Start Slider
 document.addEventListener("DOMContentLoaded", function () {
