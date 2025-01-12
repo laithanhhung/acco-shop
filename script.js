@@ -60,7 +60,7 @@ const products = [
     category: "Giải trí",
     price: 69000,
     originalPrice: 99000,
-    service: "Sắp ra mắt",
+    service: "Tài khoản riêng tư",
     description: "Ultra HD 4K",
     image: "./img/netflix_1thang.png",
   },
