@@ -1406,7 +1406,7 @@ bestsellerProducts.forEach((product) => {
 
   // Kiểm tra nếu price bằng originalPrice
   const priceHTML =
-    product.price === product.originalPrice
+    product.price == product.originalPrice
       ? `<span class="bs_price">${formatCurrency(product.price)}</span>`
       : `
       <span class="bs_price">${formatCurrency(product.price)}</span>
