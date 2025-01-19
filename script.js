@@ -233,7 +233,7 @@ const products = [
   //   image: "./img/kplus_1nam.png",
   // },
   {
-    id: 23,
+    id: 9,
     name: "Office 365 Family - 1 năm",
     category: "Microsoft",
     price: 350000,
@@ -244,7 +244,7 @@ const products = [
     image: "./img/office_365_family_1nam.png",
   },
   {
-    id: 25,
+    id: 10,
     name: "Google One, Google Drive, Gmail, Google Photo - 6 tháng",
     category: "Lưu trữ",
     price: 560000,
@@ -254,7 +254,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_6thang.png",
   },
   {
-    id: 26,
+    id: 11,
     name: "Google One, Google Drive, Gmail, Google Photo - 18 tháng",
     category: "Lưu trữ",
     price: 450000,
@@ -264,7 +264,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_18thang.png",
   },
   {
-    id: 27,
+    id: 12,
     name: "Google One, Google Drive, Gmail, Google Photo - 1 năm",
     category: "Lưu trữ",
     price: 300000,
@@ -274,7 +274,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_1nam.png",
   },
   {
-    id: 28,
+    id: 13,
     name: "Google One, Google Drive, Gmail, Google Photo - 18 tháng",
     category: "Lưu trữ",
     price: 180000,
@@ -284,7 +284,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_1nam.png",
   },
   {
-    id: 29,
+    id: 14,
     name: "Google One, Google Drive, Gmail, Google Photo - 1 năm",
     category: "Lưu trữ",
     price: 350000,
@@ -294,7 +294,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_1nam.png",
   },
   {
-    id: 30,
+    id: 15,
     name: "Google One, Google Drive, Gmail, Google Photo - 1 năm",
     category: "Lưu trữ",
     price: 499000,
@@ -304,7 +304,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_1nam.png",
   },
   {
-    id: 31,
+    id: 16,
     name: "Google One, Google Drive, Gmail, Google Photo - 1 năm",
     category: "Lưu trữ",
     price: 999000,
@@ -314,7 +314,7 @@ const products = [
     image: "./img/google_one_google_drive_gmail_google_photo_1nam.png",
   },
   {
-    id: 32,
+    id: 17,
     name: "Adobe All Apps - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 899000,
@@ -325,7 +325,7 @@ const products = [
     image: "./img/adobe_all_apps_1nam.png",
   },
   {
-    id: 33,
+    id: 18,
     name: "Adobe All Apps - 1 tháng",
     category: "Thiết kế / Đồ họa",
     price: 99000,
@@ -335,7 +335,7 @@ const products = [
     image: "./img/adobe_all_apps_1thang.png",
   },
   {
-    id: 34,
+    id: 19,
     name: "Adobe 3D Substance - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 899000,
@@ -345,7 +345,7 @@ const products = [
     image: "./img/adobe_3d_substance_1nam.png",
   },
   {
-    id: 35,
+    id: 20,
     name: "Canva Pro - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 199000,
@@ -356,7 +356,7 @@ const products = [
     image: "./img/canva_pro_1nam.png",
   },
   {
-    id: 36,
+    id: 21,
     name: "CapCUT PRO - 14.5 tháng",
     category: "Thiết kế / Đồ họa",
     price: 899000,
@@ -367,7 +367,7 @@ const products = [
     image: "./img/capcut_pro_14thang.png",
   },
   {
-    id: 37,
+    id: 22,
     name: "CapCUT PRO - 70 ngày",
     category: "Thiết kế / Đồ họa",
     price: 150000,
@@ -378,7 +378,7 @@ const products = [
     image: "./img/capcut_pro_70ngay.png",
   },
   {
-    id: 38,
+    id: 23,
     name: "CapCUT PRO - 35 ngày",
     category: "Thiết kế / Đồ họa",
     price: 99000,
@@ -388,7 +388,7 @@ const products = [
     image: "./img/capcut_pro_35ngay.png",
   },
   {
-    id: 39,
+    id: 24,
     name: "ChatGPT PLUS - 1 tháng",
     category: "AI",
     price: 399000,
@@ -399,7 +399,7 @@ const products = [
     image: "./img/chatgpt_plus_1thang.png",
   },
   {
-    id: 40,
+    id: 25,
     name: "Perplexity PRO - 1 tháng",
     category: "AI",
     price: 379000,
@@ -410,7 +410,7 @@ const products = [
     image: "./img/perplexity_pro_1thang.png",
   },
   {
-    id: 41,
+    id: 26,
     name: "Leonardo.ai - 1 tháng",
     category: "AI",
     price: 399000,
@@ -420,7 +420,7 @@ const products = [
     image: "./img/leonardo_ai_1thang.png",
   },
   {
-    id: 42,
+    id: 27,
     name: "Copy.ai - 1 tháng",
     category: "AI",
     price: 250000,
@@ -431,7 +431,7 @@ const products = [
     image: "./img/copy_ai_1thang.png",
   },
   {
-    id: 43,
+    id: 28,
     name: "Express VPN - 1 tháng",
     category: "VPN / Antivirus",
     price: 69000,
@@ -441,7 +441,7 @@ const products = [
     image: "./img/express_vpn_1thang.png",
   },
   {
-    id: 44,
+    id: 29,
     name: "Express VPN - 1 tháng",
     category: "VPN / Antivirus",
     price: 55000,
@@ -451,7 +451,7 @@ const products = [
     image: "./img/express_vpn_1thang.png",
   },
   {
-    id: 45,
+    id: 30,
     name: "VPN China - 1 tháng",
     category: "VPN / Antivirus",
     price: 60000,
@@ -462,7 +462,7 @@ const products = [
     image: "./img/vpn_china_1thang.png",
   },
   {
-    id: 46,
+    id: 31,
     name: "HMA VPN - 1 năm",
     category: "VPN / Antivirus",
     price: 499000,
@@ -472,7 +472,7 @@ const products = [
     image: "./img/hma_vpn_1nam.png",
   },
   {
-    id: 47,
+    id: 32,
     name: "HMA VPN - 1 tháng",
     category: "VPN / Antivirus",
     price: 99000,
@@ -482,7 +482,7 @@ const products = [
     image: "./img/hma_vpn_1thang.png",
   },
   {
-    id: 48,
+    id: 33,
     name: "HMA VPN - 1 tháng",
     category: "VPN / Antivirus",
     price: 69000,
@@ -492,7 +492,7 @@ const products = [
     image: "./img/hma_vpn_1thang.png",
   },
   {
-    id: 49,
+    id: 34,
     name: "Nord VPN - 1 năm",
     category: "VPN / Antivirus",
     price: 899000,
@@ -502,7 +502,7 @@ const products = [
     image: "./img/nord_vpn_1nam.png",
   },
   {
-    id: 50,
+    id: 35,
     name: "Jetbrains Full 17 Apps - 1 năm",
     category: "IT",
     price: 99000,
@@ -514,7 +514,7 @@ const products = [
   },
 
   {
-    id: 51,
+    id: 36,
     name: "Tabnine PRO - 1 tháng",
     category: "IT",
     price: 49000,
@@ -524,7 +524,7 @@ const products = [
     image: "./img/tabnine_pro_1thang.png",
   },
   {
-    id: 52,
+    id: 37,
     name: "Navicat Premium + Cloud - 1 năm",
     category: "IT",
     price: 99000,
@@ -534,7 +534,7 @@ const products = [
     image: "./img/navicat_premium_plus_cloud_1nam.png",
   },
   {
-    id: 53,
+    id: 38,
     name: "Dbeaver Enterprise / Cloud - 1 năm",
     category: "IT",
     price: 99000,
@@ -545,7 +545,7 @@ const products = [
     image: "./img/dbeaver_enterprise_plus_cloud_1nam.png",
   },
   {
-    id: 54,
+    id: 39,
     name: "Tableau Desktop + Prep - 1 năm",
     category: "IT",
     price: 99000,
@@ -556,7 +556,7 @@ const products = [
     image: "./img/tableau_desktop_plus_prep_1nam.png",
   },
   {
-    id: 55,
+    id: 40,
     name: "LinkedIn Premium Business - 1 năm",
     category: "IT",
     price: 1500000,
@@ -567,7 +567,7 @@ const products = [
     image: "./img/linkedin_premium_business_1nam.png",
   },
   {
-    id: 56,
+    id: 41,
     name: "Tryhackme PREMIUM - 1 tháng",
     category: "IT",
     price: 150000,
@@ -577,7 +577,7 @@ const products = [
     image: "./img/try_hack_me_premium_1thang.png",
   },
   {
-    id: 57,
+    id: 42,
     name: "Datacamp - 6 tháng",
     category: "IT",
     price: 99000,
@@ -588,7 +588,7 @@ const products = [
     image: "./img/datacamp_6thang.png",
   },
   {
-    id: 58,
+    id: 43,
     name: "SmartGit - 1 năm",
     category: "IT",
     price: 99000,
@@ -598,7 +598,7 @@ const products = [
     image: "./img/smartgit_1nam.png",
   },
   {
-    id: 59,
+    id: 44,
     name: "Figma PRO - 1 năm",
     category: "IT",
     price: 99000,
@@ -608,7 +608,7 @@ const products = [
     image: "./img/figma_pro_1nam.png",
   },
   {
-    id: 60,
+    id: 45,
     name: "Tinkerwell - 1 năm",
     category: "IT",
     price: 50000,
@@ -618,7 +618,7 @@ const products = [
     image: "./img/tinkerwell_1nam.png",
   },
   {
-    id: 61,
+    id: 46,
     name: "Hackthebox academy - 1 năm",
     category: "IT",
     price: 50000,
@@ -628,7 +628,7 @@ const products = [
     image: "./img/hack_the_box_academy_1nam.png",
   },
   {
-    id: 62,
+    id: 47,
     name: "Coursera Business - 3 tháng",
     category: "Học tập / Giáo dục",
     price: 299000,
@@ -639,7 +639,7 @@ const products = [
     image: "./img/coursera_business_3thang.png",
   },
   {
-    id: 63,
+    id: 48,
     name: "Coursera Business - 6 tháng",
     category: "Học tập / Giáo dục",
     price: 499000,
@@ -651,7 +651,7 @@ const products = [
     image: "./img/coursera_business_6thang.png",
   },
   {
-    id: 64,
+    id: 49,
     name: "Quizlet PLUS - 1 năm",
     category: "Học tập / Giáo dục",
     price: 150000,
@@ -673,7 +673,7 @@ const products = [
   //   image: "./img/elsa_premium_bao_hanh_1nam.png",
   // },
   {
-    id: 66,
+    id: 50,
     name: "LingoKids PLUS - 1 năm",
     category: "Học tập / Giáo dục",
     price: 450000,
@@ -684,7 +684,7 @@ const products = [
     image: "./img/lingokids_plus_1nam.png",
   },
   {
-    id: 67,
+    id: 51,
     name: "LingoKids PLUS - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 49000,
@@ -695,7 +695,7 @@ const products = [
     image: "./img/lingokids_plus_1thang.png",
   },
   {
-    id: 69,
+    id: 52,
     name: "Grammarly - 1 năm",
     category: "Học tập / Giáo dục",
     price: 99000,
@@ -705,7 +705,7 @@ const products = [
     image: "./img/grammarly_tk_dung_chung_1nam.png",
   },
   {
-    id: 70,
+    id: 53,
     name: "Grammarly - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 99000,
@@ -715,7 +715,7 @@ const products = [
     image: "./img/grammarly_30ngay.png",
   },
   {
-    id: 71,
+    id: 54,
     name: "Grammarly - 1 năm",
     category: "Học tập / Giáo dục",
     price: 450000,
@@ -735,7 +735,7 @@ const products = [
   //   image: "./img/grammarly_khong_go_plus_ai_1nam.png",
   // },
   {
-    id: 73,
+    id: 55,
     name: "Quillbot PREMIUM - 6 tháng",
     category: "Học tập / Giáo dục",
     price: 199000,
@@ -746,7 +746,7 @@ const products = [
     image: "./img/quillbot_premium_6thang.png",
   },
   {
-    id: 74,
+    id: 56,
     name: "Quillbot PREMIUM - 1 năm",
     category: "Học tập / Giáo dục",
     price: 350000,
@@ -757,7 +757,7 @@ const products = [
     image: "./img/quillbot_premium_1nam.png",
   },
   {
-    id: 75,
+    id: 57,
     name: "Quillbot PREMIUM - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 69000,
@@ -767,7 +767,7 @@ const products = [
     image: "./img/quillbot_premium_1thang.png",
   },
   {
-    id: 76,
+    id: 58,
     name: "4English PRO - Lifetime",
     category: "Học tập / Giáo dục",
     price: 599000,
@@ -778,7 +778,7 @@ const products = [
     image: "./img/4english_pro.png",
   },
   {
-    id: 77,
+    id: 59,
     name: "Busuu Premium - 1 năm",
     category: "Học tập / Giáo dục",
     price: 250000,
@@ -788,7 +788,7 @@ const products = [
     image: "./img/busuu_premium_1nam.png",
   },
   {
-    id: 78,
+    id: 60,
     name: "LingQ PREMIUM - 3 tháng",
     category: "Học tập / Giáo dục",
     price: 119000,
@@ -799,7 +799,7 @@ const products = [
     image: "./img/lingq_premium_3thang.png",
   },
   {
-    id: 79,
+    id: 61,
     name: "LingQ PREMIUM - 6 tháng",
     category: "Học tập / Giáo dục",
     price: 250000,
@@ -810,7 +810,7 @@ const products = [
     image: "./img/lingq_premium_6thang.png",
   },
   {
-    id: 80,
+    id: 62,
     name: "LingQ PREMIUM - 1 năm",
     category: "Học tập / Giáo dục",
     price: 350000,
@@ -821,7 +821,7 @@ const products = [
     image: "./img/lingq_premium_1nam.png",
   },
   {
-    id: 81,
+    id: 63,
     name: "Prowritingaid Premium - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 330000,
@@ -831,7 +831,7 @@ const products = [
     image: "./img/prowritingaid_premium_1thang.png",
   },
   {
-    id: 82,
+    id: 64,
     name: "Prowritingaid Premium Pro - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 399000,
@@ -841,7 +841,7 @@ const products = [
     image: "./img/prowritingaid_premium_pro_1thang.png",
   },
   {
-    id: 83,
+    id: 65,
     name: "Turnitin Student - 3 tháng",
     category: "Học tập / Giáo dục",
     price: 139000,
@@ -851,7 +851,7 @@ const products = [
     image: "./img/turnitin_student_3thang.png",
   },
   {
-    id: 84,
+    id: 66,
     name: "Turnitin Student - 6 tháng",
     category: "Học tập / Giáo dục",
     price: 189000,
@@ -861,7 +861,7 @@ const products = [
     image: "./img/turnitin_student_6thang.png",
   },
   {
-    id: 85,
+    id: 67,
     name: "Turnitin Student - 1 năm",
     category: "Học tập / Giáo dục",
     price: 299000,
@@ -871,7 +871,7 @@ const products = [
     image: "./img/turnitin_student_1nam.png",
   },
   {
-    id: 86,
+    id: 68,
     name: "Quizizz Individual (Super) - 1 năm",
     category: "Học tập / Giáo dục",
     price: 350000,
@@ -882,7 +882,7 @@ const products = [
     image: "./img/quizizz_individual_super_1nam.png",
   },
   {
-    id: 87,
+    id: 69,
     name: "Quizizz Individual (Super) - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 20000,
@@ -892,7 +892,7 @@ const products = [
     image: "./img/quizizz_individual_super_1thang.png",
   },
   {
-    id: 88,
+    id: 70,
     name: "Quizizz Individual (Super) - 1 năm",
     category: "Học tập / Giáo dục",
     price: 250000,
@@ -902,7 +902,7 @@ const products = [
     image: "./img/quizizz_individual_key_1nam.png",
   },
   {
-    id: 89,
+    id: 71,
     name: "Wordwall Standard - 1 năm",
     category: "Học tập / Giáo dục",
     price: 499000,
@@ -913,7 +913,7 @@ const products = [
     image: "./img/wordwall_standard_1nam.png",
   },
   {
-    id: 90,
+    id: 72,
     name: "Wordwall Pro - 1 năm",
     category: "Học tập / Giáo dục",
     price: 699000,
@@ -924,7 +924,7 @@ const products = [
     image: "./img/wordwall_pro_1nam.png",
   },
   {
-    id: 91,
+    id: 73,
     name: "Onedrive - Outlook - 1 tháng",
     category: "Lưu Trữ",
     price: 250000,
@@ -934,7 +934,7 @@ const products = [
     image: "./img/onedrive_outlook_1nam.png",
   },
   {
-    id: 92,
+    id: 74,
     name: "Mega.nz - 1 tháng",
     category: "Lưu Trữ",
     price: 90000,
@@ -944,7 +944,7 @@ const products = [
     image: "./img/mega_nz_pro_lite_1thang.png",
   },
   {
-    id: 93,
+    id: 75,
     name: "Mega.nz - 1 tháng",
     category: "Lưu Trữ",
     price: 169000,
@@ -954,7 +954,7 @@ const products = [
     image: "./img/mega_nz_pro_i_1thang.png",
   },
   {
-    id: 68,
+    id: 76,
     name: "Mega.nz - 1 tháng",
     category: "Lưu Trữ",
     price: 299000,
@@ -964,7 +964,7 @@ const products = [
     image: "./img/mega_nz_pro_ii_1thang.png",
   },
   {
-    id: 94,
+    id: 77,
     name: "Mega.nz - 1 tháng",
     category: "Lưu Trữ",
     price: 450000,
@@ -974,7 +974,7 @@ const products = [
     image: "./img/mega_nz_pro_iii_1thang.png",
   },
   {
-    id: 95,
+    id: 78,
     name: "Photoroom PRO - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 450000,
@@ -984,7 +984,7 @@ const products = [
     image: "./img/photoroom_pro_1nam.png",
   },
   {
-    id: 96,
+    id: 79,
     name: "CorelDraw - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 550000,
@@ -994,7 +994,7 @@ const products = [
     image: "./img/coreldraw_1nam.png",
   },
   {
-    id: 97,
+    id: 80,
     name: "CapCUT PRO - 1 năm",
     category: "Thiết kế / Đồ họa",
     price: 899000,
@@ -1004,7 +1004,7 @@ const products = [
     image: "./img/capcut_pro_1nam.png",
   },
   {
-    id: 98,
+    id: 81,
     name: "Perplexity PRO - 1 tháng",
     category: "VPN / Antivirus",
     price: 299000,
@@ -1015,7 +1015,7 @@ const products = [
     image: "./img/perplexity_tk_rieng_tu_1thang.png",
   },
   {
-    id: 99,
+    id: 82,
     name: "1minAI PRO - 1 năm",
     category: "VPN / Antivirus",
     price: 650000,
@@ -1027,7 +1027,7 @@ const products = [
   },
 
   {
-    id: 100,
+    id: 83,
     name: "Gemini Advance - 1 năm",
     category: "AI",
     price: 499000,
@@ -1039,7 +1039,7 @@ const products = [
   },
 
   {
-    id: 101,
+    id: 84,
     name: "Gemini Advance - 6 tháng",
     category: "AI",
     price: 179000,
@@ -1050,7 +1050,7 @@ const products = [
     image: "./img/gemini_advanced_6thang.png",
   },
   {
-    id: 102,
+    id: 85,
     name: "Leonardo.ai - 1 tháng",
     category: "AI",
     price: 179000,
@@ -1080,7 +1080,7 @@ const products = [
   //   image: "./img/gamma_app_pro_1thang.png",
   // },
   {
-    id: 107,
+    id: 86,
     name: "Kling AI Standard - 1 tháng",
     category: "AI",
     price: 169000,
@@ -1091,7 +1091,7 @@ const products = [
     image: "./img/kling_ai_standard_1thang.png",
   },
   {
-    id: 108,
+    id: 87,
     name: "Beautiful AI Pro - 1 năm",
     category: "AI",
     price: 199000,
@@ -1101,7 +1101,7 @@ const products = [
     image: "./img/beautiful_ai_1nam.png",
   },
   {
-    id: 109,
+    id: 88,
     name: "Question AI - 1 tháng",
     category: "AI",
     price: 150000,
@@ -1111,7 +1111,7 @@ const products = [
     image: "./img/question_ai_1thang.png",
   },
   {
-    id: 110,
+    id: 89,
     name: "Zoom Pro - 1 tháng",
     category: "Công việc",
     price: 150000,
@@ -1121,7 +1121,7 @@ const products = [
     image: "./img/zoom_pro_tk_rieng_tu_1thang.png",
   },
   {
-    id: 111,
+    id: 90,
     name: "Zoom Pro - 1 tháng",
     category: "Công việc",
     price: 169000,
@@ -1131,7 +1131,7 @@ const products = [
     image: "./img/zoom_pro_tk_chinh_chu_1thang.png",
   },
   {
-    id: 112,
+    id: 91,
     name: "Google Meet - 18 tháng",
     category: "Công việc",
     price: 175000,
@@ -1142,7 +1142,7 @@ const products = [
     image: "./img/google_meet_18thang.png",
   },
   {
-    id: 113,
+    id: 92,
     name: "Microsoft Copilot PRO - 1 tháng",
     category: "Công việc",
     price: 89000,
@@ -1154,7 +1154,7 @@ const products = [
     image: "./img/microsoft_copilot_pro_tk_rieng_tu_1thang.png",
   },
   {
-    id: 114,
+    id: 93,
     name: "Microsoft Copilot PRO - 1 tháng",
     category: "Công việc",
     price: 499000,
@@ -1165,7 +1165,7 @@ const products = [
     image: "./img/microsoft_copilot_pro_tk_chinh_chu_1thang.png",
   },
   {
-    id: 115,
+    id: 94,
     name: "Miro - 2 năm",
     category: "Công việc",
     price: 199000,
@@ -1175,7 +1175,7 @@ const products = [
     image: "./img/miro_2nam.png",
   },
   {
-    id: 116,
+    id: 95,
     name: "Miro - 100 năm",
     category: "Công việc",
     price: 350000,
@@ -1186,7 +1186,7 @@ const products = [
     image: "./img/miro_100nam.png",
   },
   {
-    id: 103,
+    id: 96,
     name: "Edraw Mind / Max - 1 năm",
     category: "Công việc",
     price: 449000,
@@ -1197,7 +1197,7 @@ const products = [
     image: "./img/fpt_play_smax_3thang.png",
   },
   {
-    id: 117,
+    id: 97,
     name: "Edraw Mind / Max - Lifetime",
     category: "Công việc",
     price: 699000,
@@ -1208,7 +1208,7 @@ const products = [
     image: "./img/edraw_mind_max_lifetime.png",
   },
   {
-    id: 118,
+    id: 98,
     name: "Edraw Mind / Max - 3 năm",
     category: "Công việc",
     price: 649000,
@@ -1219,7 +1219,7 @@ const products = [
     image: "./img/edraw_mind_max_3nam.png",
   },
   {
-    id: 119,
+    id: 99,
     name: "Notion Plus Edu - 1 năm",
     category: "Công việc",
     price: 150000,
@@ -1230,7 +1230,7 @@ const products = [
     image: "./img/notion_plus_edu_1nam.png",
   },
   {
-    id: 120,
+    id: 100,
     name: "Notion Plus - 1 tháng",
     category: "Công việc",
     price: 120000,
@@ -1240,7 +1240,7 @@ const products = [
     image: "./img/notion_plus_1thang.png",
   },
   {
-    id: 121,
+    id: 101,
     name: "Notion Business - 1 tháng",
     category: "Công việc",
     price: 199000,
@@ -1250,7 +1250,7 @@ const products = [
     image: "./img/notion_business_1thang.png",
   },
   {
-    id: 122,
+    id: 102,
     name: "Notion Plus + AI - 1 tháng",
     category: "Công việc",
     price: 299000,
@@ -1260,7 +1260,7 @@ const products = [
     image: "./img/notion_plus_ai_1thang.png",
   },
   {
-    id: 123,
+    id: 103,
     name: "Air Explorer PRO - Lifetime",
     category: "Công việc",
     price: 750000,
@@ -1270,7 +1270,7 @@ const products = [
     image: "./img/air_explorer_pro.png",
   },
   {
-    id: 124,
+    id: 104,
     name: "Camscanner Edu - 1 năm",
     category: "Công việc",
     price: 75000,
@@ -1280,7 +1280,7 @@ const products = [
     image: "./img/camscanner_edu_1nam.png",
   },
   {
-    id: 125,
+    id: 105,
     name: "Windscribe - 1 năm",
     category: "VPN / Antivirus",
     price: 899000,
@@ -1290,7 +1290,7 @@ const products = [
     image: "./img/windscribe_1nam.png",
   },
   {
-    id: 126,
+    id: 106,
     name: "PIA VPN - 1 tháng",
     category: "Học tập / Giáo dục",
     price: 150000,
@@ -1300,7 +1300,7 @@ const products = [
     image: "./img/pia_vpn_1thang.png",
   },
   {
-    id: 127,
+    id: 107,
     name: "PIA VPN - 1 năm",
     category: "VPN / Antivirus",
     price: 950000,
@@ -1310,7 +1310,7 @@ const products = [
     image: "./img/pia_vpn_1nam.png",
   },
   {
-    id: 128,
+    id: 108,
     name: "Surfshark VPN - 3 tháng",
     category: "VPN / Antivirus",
     price: 150000,
@@ -1320,7 +1320,7 @@ const products = [
     image: "./img/surfshark_3thang.png",
   },
   {
-    id: 129,
+    id: 109,
     name: "Surfshark VPN - 1 năm",
     category: "VPN / Antivirus",
     price: 999000,
@@ -1330,7 +1330,7 @@ const products = [
     image: "./img/surfshark_1nam.png",
   },
   {
-    id: 130,
+    id: 110,
     name: "Surfshark VPN - 2 năm",
     category: "VPN / Antivirus",
     price: 1399000,
@@ -1340,7 +1340,7 @@ const products = [
     image: "./img/surfshark_2nam.png",
   },
   {
-    id: 131,
+    id: 111,
     name: "Pure VPN - 1 năm",
     category: "VPN / Antivirus",
     price: 330000,
@@ -1356,20 +1356,14 @@ const bestsellerProducts = [
   products[4],
   products[5],
   products[6],
-  products[27],
-  products[32],
+  products[12],
+  products[17],
+  products[20],
+  products[22],
+  products[24],
   products[35],
-  products[37],
-  products[39],
-  products[50],
-  products[55],
-  products[59],
-  products[64],
-  products[69],
-  products[95],
-  products[100],
-  products[111],
-  products[113],
+  products[52],
+  products[90],
 ];
 //Start Slider
 document.addEventListener("DOMContentLoaded", function () {
