@@ -1194,7 +1194,7 @@ const products = [
     service: "Nâng cấp trên tk chính chủ",
     description:
       "Gói Individuals, 10GB Cloud,... update thoải mái; Gói Lifetime bh 2 năm, gói 1-3 năm bh 1 năm",
-    image: "./img/fpt_play_smax_3thang.png",
+    image: "./img/edraw_mind_max_1nam.png",
   },
   {
     id: 97,
