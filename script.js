@@ -1353,17 +1353,23 @@ const products = [
 
 const bestsellerProducts = [
   products[2],
-  products[39],
-  products[33],
   products[4],
+  products[5],
+  products[6],
+  products[27],
+  products[32],
   products[35],
+  products[37],
+  products[39],
   products[50],
-  products[65],
+  products[55],
   products[59],
   products[64],
-  products[97],
-  products[5],
-  products[122],
+  products[69],
+  products[95],
+  products[100],
+  products[111],
+  products[113],
 ];
 //Start Slider
 document.addEventListener("DOMContentLoaded", function () {
@@ -1392,7 +1398,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const splideList = document.querySelector(".splide__list");
 
-bestsellerProducts.forEach((products) => {
+bestsellerProducts.forEach((product) => {
   const slide = document.createElement("li");
   slide.className = "splide__slide";
 
