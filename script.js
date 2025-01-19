@@ -1392,7 +1392,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const splideList = document.querySelector(".splide__list");
 
-bestsellerProducts.forEach((product) => {
+bestsellerProducts.forEach((products) => {
   const slide = document.createElement("li");
   slide.className = "splide__slide";
 
