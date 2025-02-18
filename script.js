@@ -1,15 +1,15 @@
 // Product Data
 const products = [
-  {
-    id: 1,
-    name: "Xác thực sinh viên Spotify Premium - 1 năm",
-    category: "Giải trí",
-    price: 99000,
-    originalPrice: 99000,
-    service: "Hỗ trợ xác thực tk cá nhân thành tk sinh viên",
-    description: "Tự mua gói Premium quốc gia VN 29.5k/tháng - save 50%",
-    image: "./img/spotify_premium_1nam.png",
-  },
+  // {
+  //   id: 1,
+  //   name: "Xác thực sinh viên Spotify Premium - 1 năm",
+  //   category: "Giải trí",
+  //   price: 99000,
+  //   originalPrice: 99000,
+  //   service: "Hỗ trợ xác thực tk cá nhân thành tk sinh viên",
+  //   description: "Tự mua gói Premium quốc gia VN 29.5k/tháng - save 50%",
+  //   image: "./img/spotify_premium_1nam.png",
+  // },
   // {
   //   id: 2,
   //   name: "1 Slot Spotify Premium Family - 1 năm",
@@ -21,17 +21,17 @@ const products = [
   //     "Gói Premium Family, nhạc chất lượng cao 320kbps, Podcast, nghe Offline...",
   //   image: "./img/spotify_premium_family_1nam.png",
   // },
-  {
-    id: 3,
-    name: "Xác thực sinh viên Youtube Premium - 1 năm",
-    category: "Giải trí",
-    price: 69000,
-    originalPrice: 69000,
-    service: "Hỗ trợ xác thực tk cá nhân thành tk sinh viên",
-    description:
-      "Tự mua gói Premium quốc gia VN 49.5k/tháng thay vì 79k/tháng - save 38%",
-    image: "./img/youtube_premium_1nam.png",
-  },
+  // {
+  //   id: 3,
+  //   name: "Xác thực sinh viên Youtube Premium - 1 năm",
+  //   category: "Giải trí",
+  //   price: 69000,
+  //   originalPrice: 69000,
+  //   service: "Hỗ trợ xác thực tk cá nhân thành tk sinh viên",
+  //   description:
+  //     "Tự mua gói Premium quốc gia VN 49.5k/tháng thay vì 79k/tháng - save 38%",
+  //   image: "./img/youtube_premium_1nam.png",
+  // },
   {
     id: 4,
     name: "1 Slot Youtube Premium Family - 6 tháng",
@@ -45,7 +45,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Youtube Premium Family - 1 năm",
+    name: "1 Slot Youtube Premium Family - 1 năm",
     category: "Giải trí",
     price: 299000,
     originalPrice: 350000,
@@ -54,16 +54,16 @@ const products = [
       "Không quảng cáo, tắt màn hình,... free Youtube Music, không giới hạn thiết bị",
     image: "./img/youtube_premium_family_1nam.png",
   },
-  // {
-  //   id: 6,
-  //   name: "Netflix Premium Extra - 1 tháng",
-  //   category: "Giải trí",
-  //   price: 69000,
-  //   originalPrice: 99000,
-  //   service: "Tài khoản riêng tư",
-  //   description: "Ultra HD 4K",
-  //   image: "./img/netflix_1thang.png",
-  // },
+  {
+    id: 6,
+    name: "Netflix Premium Extra - 1 tháng",
+    category: "Giải trí",
+    price: 69000,
+    originalPrice: 99000,
+    service: "Tài khoản riêng tư",
+    description: "Ultra HD 4K",
+    image: "./img/netflix_1thang.png",
+  },
   {
     id: 7,
     name: "Discord Nitro Basic - 1 năm",
