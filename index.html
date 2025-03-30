@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acco Shop</title>
+    <meta
+      name="description"
+      content="Professional digital service solutions for businesses and individuals"
+    />
+    <meta
+      name="google-site-verification"
+      content="yJ521tjQuux11WLAgaV88C2tdYpG6w5VgdnbW8ivzss"
+    />
     <link rel="icon" href="./img/logo_title.png" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -14,18 +22,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
     <header>
       <div class="header-content">
         <a href="index.html" class="logo">
-          <img src="img/logo.png" alt="Logo" />
+          <img src="img/logo.png" alt="Acco Enterprise Solutions" />
         </a>
-        <a href="https://docs.google.com/spreadsheets/d/1Ao4ssXGgLnA19qCefX-uFo3jnaSPMkFyY7gzZCY8sWg/edit?gid=0#gid=0" target="_blank" class="contact">
-          <div class="allcourse">All course</div>
+        <a
+          href="https://docs.google.com/spreadsheets/d/1Ao4ssXGgLnA19qCefX-uFo3jnaSPMkFyY7gzZCY8sWg/edit?gid=0#gid=0"
+          target="_blank"
+          class="contact"
+        >
+          <div class="allcourse">Tất cả sản phẩm</div>
         </a>
-        <a href="https://zalo.me/84906609835" rel="Zalo Contact" target="_blank" class="contact">
+        <a
+          href="https://zalo.me/84906609835"
+          rel="Zalo Contact"
+          target="_blank"
+          class="contact"
+        >
           <div class="contact-button">Liên hệ</div>
         </a>
       </div>
@@ -35,47 +56,79 @@
     <div class="container">
       <!-- Bestsellers Section -->
       <section class="bestsellers-section">
-        <h2>Sản phẩm nổi bật</h2>
+        <h2>Featured Solutions</h2>
         <div class="splide">
           <div class="splide__track">
             <ul class="splide__list">
-              <!-- Các sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+              <!-- Products will be added here via JavaScript -->
             </ul>
           </div>
         </div>
       </section>
 
       <!-- Products Section -->
-      <div class="main-container"></div>
-      <a href="https://zalo.me/84906609835" rel="Zalo Contact" target="_blank" class="notification"
-        >Mua hàng liên hệ Zalo 0906.609.835</a
+      <div class="main-container">
+        <!-- Categories and products will be added here via JavaScript -->
+      </div>
+
+      <a
+        href="https://zalo.me/84906609835"
+        rel="Zalo Contact"
+        target="_blank"
+        class="notification"
       >
+        Liên hệ Zalo: 0906.609.835 để mua hàng và nhận ưu đãi
+      </a>
     </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Acco Shop</p>
+        <div class="social-icons">
+          <a
+            href="http://m.me/61571182364576"
+            target="_blank"
+            aria-label="Facebook Messenger"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://zalo.me/84906609835"
+            target="_blank"
+            aria-label="Zalo"
+            style="text-decoration: none"
+          >
+            <strong>Zalo</strong>
+          </a>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="script.js"></script>
     <script>
       let lastScrollTop = 0;
       const notification = document.querySelector(".notification");
-    
+
       window.addEventListener("scroll", function () {
         const scrollTop =
           window.pageYOffset || document.documentElement.scrollTop;
-    
+
         if (scrollTop > lastScrollTop) {
           // Scrolling down
           notification.style.transform = "translateY(25%)";
-          notification.style.padding = "5px 0"; // Giảm padding
-          notification.style.fontSize = "10px"; // Giảm font-size
+          notification.style.padding = "5px 0";
+          notification.style.fontSize = "10px";
         } else {
           // Scrolling up
           notification.style.transform = "translateY(0)";
-          notification.style.padding = "10px 0"; // Giảm padding
-          notification.style.fontSize = "16px"; // Giảm font-size
+          notification.style.padding = "10px 0";
+          notification.style.fontSize = "16px";
         }
-    
+
         lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
       });
-    </script>
     </script>
     <!-- Google tag (gtag.js) -->
     <script
