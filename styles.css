@@ -243,7 +243,7 @@ header {
   box-shadow: var(--shadow-md);
   transition: transform var(--transition-default),
     box-shadow var(--transition-default);
-  height: 390px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;

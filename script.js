@@ -1233,7 +1233,7 @@ bestsellerProducts.forEach((product) => {
       <div class="bs_product-info">
         <h3>${product.name}</h3>
         <p class="bs_product-description">${product.service}</p>
-        <p class="bs_product-description">${product.description}</p>
+        
         <div class="bs_product-price">
           ${priceHTML}
           ${discountTag}
