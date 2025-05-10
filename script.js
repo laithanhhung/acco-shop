@@ -1392,3 +1392,35 @@ document.addEventListener("DOMContentLoaded", function () {
   // Cập nhật nội dung nút ban đầu
   updateButtonContent();
 });
+
+let lastScrollTop = 0;
+const notification = document.querySelector(".notification");
+
+window.addEventListener("scroll", function () {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // Scrolling down
+    notification.style.transform = "translateY(25%)";
+    notification.style.padding = "5px 0";
+    notification.style.fontSize = "10px";
+  } else {
+    // Scrolling up
+    notification.style.transform = "translateY(0)";
+    notification.style.padding = "10px 0";
+    notification.style.fontSize = "16px";
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+});
+
+// Add JS for price overlay functionality
+document.getElementById("main-cta").addEventListener("mouseenter", function () {
+  document.querySelector(".price-overlay").classList.add("visible");
+});
+
+document
+  .querySelector(".price-overlay")
+  .addEventListener("mouseleave", function () {
+    this.classList.remove("visible");
+  });

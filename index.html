@@ -23,7 +23,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -54,6 +54,63 @@
 
     <!-- Main Content -->
     <div class="container">
+      <!-- Hero Section -->
+      <section class="snack-hero cinematic">
+        <div class="snack-hero-content">
+          <div class="snack-hero-text">
+            <h1>Learn From The World's Best</h1>
+            <p>
+              Học hỏi trực tiếp từ những chuyên gia hàng đầu trong các lĩnh vực
+              như nấu ăn, điện ảnh, viết lách, kinh doanh và hơn thế nữa.
+            </p>
+            <div class="cta-wrapper">
+              <a
+                href="https://zalo.me/84906609835"
+                class="cta-button"
+                id="main-cta"
+              >
+                <span>Khám Phá Ngay</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Section (Image) -->
+        <div class="hero-right">
+          <img src="./img/MasterClassBanner.png" alt="MasterClass Banner" />
+        </div>
+
+        <!-- Price overlay (moved to center of hero) -->
+        <div class="price-overlay">
+          <div class="price-content">
+            <div class="price-badge">SPECIAL OFFER</div>
+            <div class="price-amount">100.000đ</div>
+            <div class="price-original">250.000đ/tháng</div>
+            <div class="price-savings">Tiết kiệm 60%</div>
+            <a href="https://zalo.me/84906609835" class="price-button"
+              >Mua Ngay</a
+            >
+          </div>
+        </div>
+
+        <!-- Cinematic Overlay -->
+        <div class="cinematic-overlay"></div>
+
+        <!-- Dramatic Light Effect -->
+        <div class="light-effect"></div>
+
+        <!-- TV button indicators at the bottom of the TV -->
+        <div class="tv-controls">
+          <div class="tv-control-indicator"></div>
+          <div class="tv-control-indicator active"></div>
+          <div class="tv-control-indicator"></div>
+        </div>
+
+        <!-- TV power indicator -->
+        <div class="tv-power-indicator"></div>
+      </section>
+
       <!-- Bestsellers Section -->
       <section class="bestsellers-section">
         <h2>Những gói bán chạy</h2>
@@ -107,29 +164,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="script.js"></script>
-    <script>
-      let lastScrollTop = 0;
-      const notification = document.querySelector(".notification");
 
-      window.addEventListener("scroll", function () {
-        const scrollTop =
-          window.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollTop > lastScrollTop) {
-          // Scrolling down
-          notification.style.transform = "translateY(25%)";
-          notification.style.padding = "5px 0";
-          notification.style.fontSize = "10px";
-        } else {
-          // Scrolling up
-          notification.style.transform = "translateY(0)";
-          notification.style.padding = "10px 0";
-          notification.style.fontSize = "16px";
-        }
-
-        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
-      });
-    </script>
     <!-- Google tag (gtag.js) -->
     <script
       async
